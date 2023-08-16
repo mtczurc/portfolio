@@ -1,0 +1,67 @@
+
+
+.meu-portifolio{
+    display: grid;
+    grid-template-columns: 460px 1fr; 
+    gap: 48px;
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 24px;
+    margin: 160px auto 100px;
+    
+}
+
+section{
+    height: 400px;
+}
+
+.card{
+    border-radius: 12px;
+    background: var(--background-body);
+    box-shadow: var(--show-card);
+    
+
+}
+
+.projetos{
+    grid-column: 1 / 3;
+}
+
+.usuario{
+   padding: 0 40px 40px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 12px;
+}
+
+
+.usuario picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-image);
+    margin-top: -100px;
+}
+
+.usuario picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.usuario_conteudo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.usuario_conteudo h1{
+    font-size: 32px;
+}
+.usuario_conteudo p{
+    font-size: 18px;
+    font-weight: 300px;
+}

@@ -20,7 +20,7 @@
 
 body{
     background: var(--background-body);
-
+    background-color: rgb(234, 234, 234);
     color: var(--primary);
     font: 400 10px "Inter",sans-serif;
 }
